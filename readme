@@ -1,0 +1,8 @@
+npm init -y //paracrear el package json
+npm i express bcryptjs cors dotenv jsonwebtoken mongoose morgan helmet
+npm i nodemon @babel/core @babel/cli @babel/node @babel-preset-env -D
+
+iniciar desarrollo: "npm run dev"
+iniciar produccion: "npm runn start"
+
+01:13:47
