@@ -12,8 +12,8 @@ export const getUserById = async (req, res) => {
 };
 
 export const createUser = async (req, res) => {
-    const {name, lastName, username, password, mail, phone, imgUrl}= req.body
-    const newUser = new User({name, lastName, username, password, mail, phone, imgUrl})
+    const {name, lastName, username, password, mail, roles, phone, imgUrl}= req.body
+    const newUser = new User({name, lastName, username, password, mail, roles, phone, imgUrl})
     const userSaved = await newUser.save()
     res.status(201).json(userSaved);
 };
