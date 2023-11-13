@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 mongoose
-  .connect("mongodb+srv://ramn:Samsung01@backendapp.ogo8efp.mongodb.net/",{
+  .connect("mongodb+srv://ramn:Samsung01@backendapp.ogo8efp.mongodb.net/test",{
     useNewUrlParser: true,
     useUnifiedTopology: true
   })
